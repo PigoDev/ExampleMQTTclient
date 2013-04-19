@@ -765,7 +765,7 @@ public class mainJFrame extends javax.swing.JFrame implements Runnable {
             if(this.myThread.isInterrupted()==true)
             {this.myThread.start();}           
 
-            JOptionPane.showMessageDialog(null, "Connected.");
+            //JOptionPane.showMessageDialog(null, "Connected.");
     }
     
     public void doCommand(ArrayList<String> command) throws IOException, Exception
